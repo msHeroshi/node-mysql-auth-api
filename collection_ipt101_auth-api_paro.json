@@ -1,0 +1,88 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Heroshi Paro",
+    "dateExported": "2023-04-25T12:54:27.093Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "85452b5b-c9d2-4fd1-b1be-fd34cd880244",
+            "colId": "c8b074e6-a177-45f5-843f-e6702d4467ce",
+            "containerId": "",
+            "name": "update user",
+            "url": "http://localhost:4000/users/1",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2023-04-25T12:53:42.453Z",
+            "modified": "2023-04-25T12:53:42.453Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"firstName\": \"roshi\",\r\n    \"lastName\": \"paro\"\r\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTY4MjQyNjc4NCwiZXhwIjoxNjgzMDMxNTg0fQ.krAM_hk518rauzT5GHRuZQPwbiPa0eXYNk9ui7-oTXg"
+            },
+            "tests": []
+        },
+        {
+            "_id": "4de6daec-dbc9-4179-8bf2-55b1771ec3e6",
+            "colId": "c8b074e6-a177-45f5-843f-e6702d4467ce",
+            "containerId": "",
+            "name": "get all users",
+            "url": "http://localhost:4000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-25T12:53:52.229Z",
+            "modified": "2023-04-25T12:53:52.229Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTY4MjQyNjc4NCwiZXhwIjoxNjgzMDMxNTg0fQ.krAM_hk518rauzT5GHRuZQPwbiPa0eXYNk9ui7-oTXg"
+            },
+            "tests": []
+        },
+        {
+            "_id": "17721e9a-0195-41fe-9a12-86de442775e9",
+            "colId": "c8b074e6-a177-45f5-843f-e6702d4467ce",
+            "containerId": "",
+            "name": "authenticate user",
+            "url": "http://localhost:4000/users/authenticate",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-25T12:53:56.589Z",
+            "modified": "2023-04-25T12:53:56.589Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"username\": \"jason\",\r\n    \"password\": \"my-super-secret-password\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "75c937fd-1198-4c9a-a9f0-dd098e62828e",
+            "colId": "c8b074e6-a177-45f5-843f-e6702d4467ce",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:4000/users/register",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-04-25T12:54:02.892Z",
+            "modified": "2023-04-25T12:54:02.892Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"firstName\": \"Jason\",\r\n    \"lastName\": \"Watmore\",\r\n    \"username\": \"jason\",\r\n    \"password\": \"my-super-secret-password\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
